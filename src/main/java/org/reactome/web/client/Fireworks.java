@@ -51,7 +51,7 @@ public class Fireworks implements FireworksLoader.Handler, Exportable {
         JsProperties jsProp = new JsProperties(input);
         return create(
                 jsProp.get("placeHolder"),
-                jsProp.getInt("species", 48887),
+                jsProp.getInt("species", 186860),
                 jsProp.get("proxyPrefix", SERVER),
                 jsProp.getInt("width", 500),
                 jsProp.getInt("height", 400)
